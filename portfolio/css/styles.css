@@ -1,0 +1,68 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+}
+
+/* Estilos para el sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #1c1e21;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar p {
+    font-size: 0.9rem;
+    color: #b5b5b5;
+}
+
+/* Estilos de los enlaces en el sidebar */
+.sidebar .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Ajustes del contenido principal */
+main {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+/* Ajustes de contacto */
+#contacto form .form-control {
+    margin-bottom: 15px;
+}
