@@ -3,52 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Uki</title>
+    <title>Portfolio - Álvaro Lorente Almán</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-    <!-- Sidebar -->
-    <aside class="sidebar position-fixed h-100">
-        <div class="text-center mb-4">
-            <img src="img/logo.png" alt="Foto de perfil" class="rounded-circle mb-3" width="100">
-            <h2>Álvaro Lorente Almán</h2>
-            <p>Desarrollador aplicaciones Multiplataforma</p>
-            <div class="social-icons d-flex justify-content-center">
-                <a href="#" class="mx-2"><i class="bi bi-envelope"></i></a>
-                <a href="#" class="mx-2"><i class="bi bi-github"></i></a>
-                <a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a>
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-lg nav-bar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Logo" width="50" class="me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#tecnologias">Tecnologías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#formacion">Formación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-secondary" id="toggleDarkMode">
+                    <i class="bi bi-moon"></i> 
+                </button>
             </div>
         </div>
-        <nav>
-            <ul class="nav flex-column">
-                <li class="nav-item"><a href="#inicio" class="nav-link"><i class="bi bi-house-door-fill"></i>Inicio</a></li>
-                <li class="nav-item"><a href="#sobre-mi" class="nav-link"><i class="bi bi-person-fill"></i>Sobre mí</a></li>
-                <li class="nav-item"><a href="#tecnologias" class="nav-link"><i class="bi bi-laptop-fill"></i>Tecnologías</a></li>
-                <li class="nav-item"><a href="#proyectos" class="nav-link"><i class="bi bi-folder-fill"></i>Proyectos</a></li>
-                <li class="nav-item"><a href="#formacion" class="nav-link"><i class="bi bi-book-fill"></i>Formación</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link"><i class="bi bi-gear-fill"></i>Skills</a></li>
-                <li class="nav-item"><a href="#contacto" class="nav-link"><i class="bi bi-envelope-fill"></i>Contacto</a></li>
-            </ul>
-        </nav>
-    </aside>
+    </nav>
+    
 
-    <!-- Main Content -->
-    <main class="ms-5">
+    <main class="container my-5">
         <!-- Sección de Inicio -->
-        <section id="inicio" class="container mt-5 pt-4 text-center">
-            <h2>Desarrollador Aplicaciones Multiplataforma</h2>
-            <p>¡Bienvenido a mi portfolio! Aquí podrás conocer mis proyectos y habilidades.</p>
+        <section id="inicio" class="text-center">
+            <!-- Banner con imagen -->
+            <div class="banner">
+                <img src="./img/code-5113374_1280.jpg" alt="Banner Desarrollador" class="banner-image">
+            </div>
         </section>
+        
+        
 
         <!-- Sección Sobre Mí -->
-        <section id="sobre-mi" class="container my-5">
+        <section id="sobre-mi" class="my-5 section-rounded">
             <h3>Sobre mí</h3>
-            <p>Soy un desarrollador apasionado por el desarrollo de aplicaciones web y multiplataforma, con experiencia en varios lenguajes y frameworks.</p>
+            <p>Soy desarrollador de aplicaciones y estudiante de programación, tengo 26 años y soy de Sevilla. Actualmente me encuentro cursando el grado de Desarrollo Aplicaciones Multiplataforma.
+                Me gusta enfrentar nuevos retos y aprender tecnologías. He trabajado en varios proyectos de APIs REST usando Spring, y actualmente estoy aprendiendo otros frameworks y lenguajes de programación como Python para ampliar mis conocimientos y herramientas de desarrollo.
+                Mi objetivo es seguir creciendo en el mundo del desarrollo de software, contribuyendo activamente en proyectos y manteniéndome al día con las últimas tendencias tecnológicas.
+            </p>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="imG/uki.png" alt="Foto de perfil" class="img-fluid">
+                    <img src="img/uki.png" alt="Foto de perfil" class="img-fluid rounded-circle shadow">
                 </div>
                 <div class="col-md-8">
                     <p><strong>Edad:</strong> 26 años</p>
@@ -56,38 +80,102 @@
                     <p><strong>Experiencia:</strong> 2 años como desarrollador multiplataforma</p>
                 </div>
             </div>
-        </section>
-
-        <!-- Sección Tecnologías -->
-        <section id="tecnologias" class="container my-5">
-            <h3>Tecnologías</h3>
-            <div class="row">
-                <div class="col-md-4">Frontend: HTML, CSS, JavaScript, Angular</div>
-                <div class="col-md-4">Backend: Node.js, Express, Python</div>
-                <div class="col-md-4">Bases de datos: MySQL, MongoDB</div>
+        
+            <!-- Enlaces a redes sociales y correo -->
+            <div class="mt-4">
+                <a href="https://github.com/alvaroloal" class="btn btn-outline-secondary me-2" target="_blank">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5" class="btn btn-outline-secondary me-2" target="_blank">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:alorentealman@gmail.com" class="btn btn-outline-secondary" target="_blank">
+                    <i class="bi bi-envelope"></i> Correo
+                </a>
             </div>
         </section>
+        
+
+        <!-- Sección Tecnologías -->
+        <section id="tecnologias" class="my-5 section-rounded">
+            <h3>Tecnologías</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 border-white">
+                        <img src="./img/frontend.jpg" class="card-img-top" alt="Frontend Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" style="width: 20px; vertical-align: middle;"> HTML,
+                                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" style="width: 20px; vertical-align: middle;"> CSS,
+                                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" style="width: 20px; vertical-align: middle;"> JavaScript,
+                                <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" style="width: 20px; vertical-align: middle;"> Angular
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 border-white">
+                        <img src="./img/code-1076536_640.jpg" class="card-img-top" alt="Backend Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" style="width: 20px; vertical-align: middle;"> Node.js,
+                                <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" style="width: 20px; vertical-align: middle;"> Express,
+                                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="width: 20px; vertical-align: middle;"> Python
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 border-white">
+                        <img src="./img/bbdd.jpg" class="card-img-top" alt="Database Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Bases de datos</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" style="width: 20px; vertical-align: middle;"> MySQL,
+                                <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" style="width: 20px; vertical-align: middle;"> MongoDB
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 border-white">
+                        <img src="./img/back-end-developer.png" class="card-img-top" alt="Programming Languages">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenguajes</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" style="width: 20px; vertical-align: middle;"> Java,
+                                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="width: 20px; vertical-align: middle;"> Python
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
 
         <!-- Sección Proyectos -->
-        <section id="proyectos" class="container my-5 bg-secondary">
+        <section id="proyectos" class="my-5 section-rounded">
             <h3>Proyectos</h3>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card mb-4">
-                        <img src="imG/transportes.png" class="card-img-top" alt="Proyecto 1">
+                    <div class="card mb-4 shadow">
+                        <img src="img/transportes.png" class="card-img-top" alt="Proyecto 1">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Empresa Paquetería</h5>
-                            <p class="card-text">Descripción</p>
+                            <p class="card-text">Descripción del proyecto que incluye las tecnologías utilizadas y los objetivos alcanzados.</p>
                             <a href="#" class="btn btn-primary">Ver proyecto</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mb-4">
-                        <img src="imG/todoremo.png" class="card-img-top" alt="Proyecto 2">
+                    <div class="card mb-4 shadow">
+                        <img src="img/todoremo.png" class="card-img-top" alt="Proyecto 2">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Tienda Productos Remo</h5>
-                            <p class="card-text">Descripción breve del proyecto.</p>
+                            <p class="card-text">Descripción breve del proyecto, resaltando su funcionalidad principal y su impacto.</p>
                             <a href="#" class="btn btn-primary">Ver proyecto</a>
                         </div>
                     </div>
@@ -96,7 +184,7 @@
         </section>
 
         <!-- Sección Formación -->
-        <section id="formacion" class="container my-5">
+        <section id="formacion" class="my-5 section-rounded">
             <h3>Formación</h3>
             <ul>
                 <li>Curso de Desarrollo Multiplataforma - Universidad XYZ</li>
@@ -105,13 +193,13 @@
         </section>
 
         <!-- Sección Skills -->
-        <section id="skills" class="container my-5">
+        <section id="skills" class="my-5 section-rounded">
             <h3>Skills</h3>
             <p>HTML, CSS, JavaScript, React, Node.js, Python, SQL, Git, Docker</p>
         </section>
 
         <!-- Sección Contacto -->
-        <section id="contacto" class="container my-5">
+        <section id="contacto" class="my-5 section-rounded">
             <h3>Contacto</h3>
             <form>
                 <div class="mb-3">
@@ -119,15 +207,24 @@
                     <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
                 </div>
                 <div class="mb-3">
-                    <label for="message" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <footer class="bg-dark text-white d-flex justify-content-between align-items-center p-3">
+        <p class="mb-0 text-center w-100">&copy; 2024 Álvaro Lorente Almán. Todos los derechos reservados.</p>
+        <a href="#" class="text-white ml-auto" title="Volver al inicio" style="font-size: 1.5em;">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+    
+    
+    
+
+    <script src="script.js"></script> <!-- Enlace al script JS -->
 </body>
 </html>

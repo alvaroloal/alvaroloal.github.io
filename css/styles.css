@@ -1,68 +1,98 @@
-/* Estilos básicos */
 body {
-    font-family: Arial, sans-serif;
-    background-color: azure;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: lightsteelblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Estilos para el sidebar */
-.sidebar {
-    width: 250px;
-    background-color: #1c1e21;
-    color: #ffffff;
-    padding-top: 30px;
+.nav-bar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.sidebar h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
+.nav-link {
+    margin: 0 15px;
 }
-
-.sidebar p {
-    font-size: 0.9rem;
-    color: #b5b5b5;
-}
-
-/* Estilos de los enlaces en el sidebar */
-.sidebar .nav-link {
-    color: #ffffff;
-    font-size: 1rem;
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.sidebar .nav-link:hover {
-    background-color: #333;
-    border-radius: 5px;
-}
-
-/* Estilos para los iconos de redes sociales */
-.social-icons a {
-    color: #ffffff;
-    font-size: 1.2rem;
-    margin: 0 5px;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #007bff;
-}
-
-/* Ajustes del contenido principal */
-main {
-    margin-left: 270px;
-    padding: 20px;
-}
-
 
 h3 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
-
-/* Ajustes de contacto */
-#contacto form .form-control {
-    margin-bottom: 15px;
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .nav-bar {
+    background-color: #222;
+}
+
+.dark-mode h3 {
+    color: #ffffff;
+}
+
+.dark-mode p {
+    color: #e0e0e0;
+}
+
+.dark-mode .card {
+    background-color: #333;
+    border: 1px solid #444;
+}
+
+.dark-mode footer {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.section-rounded {
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    overflow: hidden; 
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.banner {
+    position: relative; 
+    overflow: hidden; 
+}
+
+.banner-image {
+    width: 100%; 
+    height: 300px; 
+    display: block; 
+}
+
+
+@media (max-width: 576px) {
+    .banner-image {
+        height: 200px; 
+    }
+}
+
+
