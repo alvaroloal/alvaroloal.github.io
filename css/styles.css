@@ -14,15 +14,14 @@ html, body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-}
-
 
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem 0;
+   
+    
+    
 }
 
 .navbar-brand img {
@@ -49,6 +48,11 @@ main {
 
 .rounded-border {
     border-radius: 7px;
+}
+
+.sobre-mi {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 
