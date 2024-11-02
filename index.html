@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,33 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Gemunu+Libre:wght@200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
     <nav class="navbar navbar-expand-lg nav-bar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="img/logo.png" alt="Logo" width="40" class="me-2">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-uppercase" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-uppercase" href="#sobre-mi">Sobre mí</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-uppercase" href="#tecnologias">Tecnologías</a>
                     </li>
@@ -50,9 +58,13 @@
     <main class="container my-5 pt-0 mt-0">
         <section id="sobre-mi" class="my-5 section-rounded">
             <h3 class="mb-4">Sobre mí</h3>
-            <p>Soy desarrollador de aplicaciones y estudiante de programación, tengo 26 años y soy de Sevilla. Actualmente me encuentro cursando el grado de Desarrollo Aplicaciones Multiplataforma.
-                Me gusta enfrentar nuevos retos y aprender tecnologías. He trabajado en varios proyectos de APIs REST usando Spring, y actualmente estoy aprendiendo otros frameworks y lenguajes de programación como Python para ampliar mis conocimientos y herramientas de desarrollo.
-                Mi objetivo es seguir creciendo en el mundo del desarrollo de software, contribuyendo activamente en proyectos y manteniéndome al día con las últimas tendencias tecnológicas.
+            <p>Soy desarrollador de aplicaciones y estudiante de programación, tengo 26 años y soy de Sevilla.
+                Actualmente me encuentro cursando el grado de Desarrollo Aplicaciones Multiplataforma.
+                Me gusta enfrentar nuevos retos y aprender tecnologías. He trabajado en varios proyectos de APIs REST
+                usando Spring, y actualmente estoy aprendiendo otros frameworks y lenguajes de programación como Python
+                para ampliar mis conocimientos y herramientas de desarrollo.
+                Mi objetivo es seguir creciendo en el mundo del desarrollo de software, contribuyendo activamente en
+                proyectos y manteniéndome al día con las últimas tendencias tecnológicas.
             </p>
             <div class="row">
                 <div class="col-md-4">
@@ -64,12 +76,13 @@
                     <p><strong>Experiencia:</strong> 2 años como desarrollador multiplataforma</p>
                 </div>
             </div>
-        
+
             <div class="mt-4">
                 <a href="https://github.com/alvaroloal" class="btn btn-primary me-2" target="_blank">
                     <i class="bi bi-github"></i> GitHub
                 </a>
-                <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5" class="btn btn-outline-secondary me-2" target="_blank">
+                <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5"
+                    class="btn btn-outline-secondary me-2" target="_blank">
                     <i class="bi bi-linkedin"></i> LinkedIn
                 </a>
                 <a href="mailto:alorentealman@gmail.com" class="btn btn-outline-secondary" target="_blank">
@@ -77,72 +90,87 @@
                 </a>
             </div>
         </section>
-        
+
 
         <section id="tecnologias" class="my-5 section-rounded">
             <h3 class="mb-4">Tecnologías</h3>
             <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-4 tech-card">
-                  <img src="./img/frontend.jpg" class="card-img-top" alt="Frontend Technologies">
-                  <div class="card-body">
-                    <h5 class="card-title">Frontend</h5>
-                    <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" class="tech-icon">HTML
-                      <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" class="tech-icon">CSS
-                      <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" class="tech-icon">JavaScript
-                      <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" class="tech-icon">Angular
-                      <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="React" class="tech-icon">React
-                    </p>
-                  </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 tech-card">
+                        <img src="./img/frontend.jpg" class="card-img-top" alt="Frontend Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML"
+                                    class="tech-icon">HTML
+                                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS"
+                                    class="tech-icon">CSS
+                                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"
+                                    class="tech-icon">JavaScript<br>
+                                <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular"
+                                    class="tech-icon">Angular
+                                <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+                                    alt="React" class="tech-icon">React
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          
-              <div class="col-md-4">
-                <div class="card mb-4 tech-card">
-                  <img src="./img/code-1076536_640.jpg" class="card-img-top" alt="Backend Technologies">
-                  <div class="card-body">
-                    <h5 class="card-title">Backend</h5>
-                    <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" class="tech-icon">Node.js
-                      <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" class="tech-icon">Express<br>
-                      <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" class="tech-icon">SpringBoot</p>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="col-md-4">
-                <div class="card mb-4 tech-card">
-                  <img src="./img/bbdd.webp" class="card-img-top" alt="Database Technologies">
-                  <div class="card-body">
-                    <h5 class="card-title">Bases de datos</h5>
-                    <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" class="tech-icon">MySQL
-                      <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="tech-icon">MongoDB <br>
-                      <img src="https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=000000" alt="PostgreSQL" class="tech-icon">PostgreSQL
-                    </p>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="col-md-4 mx-auto">
-                <div class="card mb-4 tech-card">
-                  <img src="./img/back-end-developer.png" class="card-img-top" alt="Programming Languages">
-                  <div class="card-body">
-                    <h5 class="card-title">Lenguajes</h5>
-                    <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" class="tech-icon">Java
-                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon">Python
-                      <img src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="TypeScript" class="tech-icon">TypeScript
 
-                      
-                    </p>
-                  </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 tech-card">
+                        <img src="./img/code-1076536_640.jpg" class="card-img-top" alt="Backend Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js"
+                                    class="tech-icon">Node.js
+                                <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express"
+                                    class="tech-icon">Express<br>
+                                <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt=""
+                                    class="tech-icon">SpringBoot
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 tech-card">
+                        <img src="./img/bbdd.webp" class="card-img-top" alt="Database Technologies">
+                        <div class="card-body">
+                            <h5 class="card-title">Bases de datos</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL"
+                                    class="tech-icon">MySQL
+                                <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB"
+                                    class="tech-icon">MongoDB <br>
+                                <img src="https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=000000"
+                                    alt="PostgreSQL" class="tech-icon">PostgreSQL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mx-auto">
+                    <div class="card mb-4 tech-card">
+                        <img src="./img/back-end-developer.png" class="card-img-top" alt="Programming Languages">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenguajes</h5>
+                            <p class="card-text">
+                                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java"
+                                    class="tech-icon">Java
+                                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python"
+                                    class="tech-icon">Python
+                                <img src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+                                    alt="TypeScript" class="tech-icon">TypeScript
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </section>
-          
+        </section>
+
         <section id="proyectos" class="my-5 section-rounded">
             <h3 class="mb-4">Proyectos</h3>
             <div class="row">
@@ -152,8 +180,10 @@
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Empresa Paquetería</h5>
                             <p class="card-text">Desarrollada con SpringBoot</p>
-                            <p class="card-text">Aplicación que gestiona el envío y seguimiento de paquetes en una empresa de transporte, se llevará el control de los envíos de paquetería.</p>
-                            <a href="https://github.com/alvaroloal/proyecto-paquetes" class="btn btn-primary" target="_blank">Ver repositorio</a>
+                            <p class="card-text">Aplicación que gestiona el envío y seguimiento de paquetes en una
+                                empresa de transporte, se llevará el control de los envíos de paquetería.</p>
+                            <a href="https://github.com/alvaroloal/proyecto-paquetes" class="btn btn-primary"
+                                target="_blank">Ver repositorio</a>
                         </div>
                     </div>
                 </div>
@@ -163,8 +193,10 @@
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Tienda Productos Remo</h5>
                             <p class="card-text">Desarrollada con SpringBoot</p>
-                            <p class="card-text">Aplicación que gestiona los productos de una tienda, así como la gestion de los usuarios del sistema.</p>
-                            <a href="https://github.com/alvaroloal/proyecto-tienda-remo" class="btn btn-primary" target="_blank">Ver repositorio</a>
+                            <p class="card-text">Aplicación que gestiona los productos de una tienda, así como la
+                                gestion de los usuarios del sistema.</p>
+                            <a href="https://github.com/alvaroloal/proyecto-tienda-remo" class="btn btn-primary"
+                                target="_blank">Ver repositorio</a>
                         </div>
                     </div>
                 </div>
@@ -195,8 +227,8 @@
                     </div>
                 </div>
             </section>
-        
-          
+
+
             <section id="skills" class="my-5 section-rounded">
                 <h3 class="text-center mb-4">Skills</h3>
                 <div class="row justify-content-center">
@@ -250,24 +282,25 @@
                     </div>
                 </div>
             </section>
-            
+
             <section id="contacto" class="my-5 section-rounded">
                 <h3 class="text-center mb-4">Contacto</h3>
                 <form class="mx-auto" style="max-width: 600px;">
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                        <input type="email" class="form-control" id="email" placeholder="correo@example.com">
                     </div>
                     <div class="mb-3">
                         <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+                        <textarea class="form-control" id="mensaje" rows="3"
+                            placeholder="Escribe tu mensaje aquí"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Enviar</button>
                 </form>
             </section>
         </main>
-        
-       
+
+
         <footer class="bg-dark text-white p-4">
             <div class="container">
                 <div class="row text-center">
@@ -280,12 +313,15 @@
                     </div>
                     <div class="col-md-4">
                         <h5 class="text-primary">Redes Sociales</h5>
-                        <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5" class="text-white me-2" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-                        <a href="https://github.com/alvaroloal" class="text-white me-2" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5" class="text-white me-2"
+                            target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/alvaroloal" class="text-white me-2" target="_blank"><i
+                                class="fab fa-github fa-lg"></i></a>
                     </div>
                     <div class="col-md-4">
                         <h5 class="text-primary">Contacto</h5>
-                        <a href="mailto:alorentealman@gmail.com" class="text-white me-2"><i class="fab fa-mail fa-lg"></i>alorentealman@gmail.com</a>
+                        <a href="mailto:alorentealman@gmail.com" class="text-white me-2"><i
+                                class="fab fa-mail fa-lg"></i>alorentealman@gmail.com</a>
                     </div>
                 </div>
                 <div class="text-center mt-3">
@@ -296,9 +332,10 @@
                 </div>
             </div>
         </footer>
-  
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
