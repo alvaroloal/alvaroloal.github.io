@@ -6,16 +6,16 @@
     <title>Portfolio - Álvaro Lorente Almán</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
-    <!-- Barra de navegación superior -->
+    
     <nav class="navbar navbar-expand-lg nav-bar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/logo.png" alt="Logo" width="50" class="me-2">
+                <img src="img/L.png" alt="Logo" width="40" class="me-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,17 +53,6 @@
     
 
     <main class="container my-5">
-        <!-- Sección de Inicio -->
-        <section id="inicio" class="text-center ">
-            <div class="banner">
-                <img src="./img/Azul y Rosa Gradiente Texto Banner.png" alt="Banner Desarrollador" class="banner-image">
-            </div>
-        </section>
-        
-        
-        
-
-        <!-- Sección Sobre Mí -->
         <section id="sobre-mi" class="my-5 section-rounded">
             <h3>Sobre mí</h3>
             <p>Soy desarrollador de aplicaciones y estudiante de programación, tengo 26 años y soy de Sevilla. Actualmente me encuentro cursando el grado de Desarrollo Aplicaciones Multiplataforma.
@@ -81,7 +70,6 @@
                 </div>
             </div>
         
-            <!-- Enlaces a redes sociales y correo -->
             <div class="mt-4">
                 <a href="https://github.com/alvaroloal" class="btn btn-primary me-2" target="_blank">
                     <i class="bi bi-github"></i> GitHub
@@ -96,67 +84,68 @@
         </section>
         
 
-        <!-- Sección Tecnologías -->
         <section id="tecnologias" class="my-5 section-rounded">
-            <h3>Tecnologías</h3>
+            <h3 class="section-title">Tecnologías</h3>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 border-white">
-                        <img src="./img/frontend.jpg" class="card-img-top" alt="Frontend Technologies">
-                        <div class="card-body">
-                            <h5 class="card-title">Frontend</h5>
-                            <p class="card-text">
-                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" style="width: 20px; vertical-align: middle;"> HTML,
-                                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" style="width: 20px; vertical-align: middle;"> CSS,
-                                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" style="width: 20px; vertical-align: middle;"> JavaScript,
-                                <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" style="width: 20px; vertical-align: middle;"> Angular
-                            </p>
-                        </div>
-                    </div>
+              <div class="col-md-4">
+                <div class="card mb-4 tech-card">
+                  <img src="./img/frontend.jpg" class="card-img-top" alt="Frontend Technologies">
+                  <div class="card-body">
+                    <h5 class="card-title">Frontend</h5>
+                    <p class="card-text">
+                      <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" class="tech-icon"> HTML,
+                      <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" class="tech-icon"> CSS,
+                      <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" class="tech-icon"> JavaScript,
+                      <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" class="tech-icon"> Angular
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 border-white">
-                        <img src="./img/code-1076536_640.jpg" class="card-img-top" alt="Backend Technologies">
-                        <div class="card-body">
-                            <h5 class="card-title">Backend</h5>
-                            <p class="card-text">
-                                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" style="width: 20px; vertical-align: middle;"> Node.js,
-                                <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" style="width: 20px; vertical-align: middle;"> Express,
-                                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="width: 20px; vertical-align: middle;"> Python
-                            </p>
-                        </div>
-                    </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card mb-4 tech-card">
+                  <img src="./img/code-1076536_640.jpg" class="card-img-top" alt="Backend Technologies">
+                  <div class="card-body">
+                    <h5 class="card-title">Backend</h5>
+                    <p class="card-text">
+                      <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" class="tech-icon"> Node.js,
+                      <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" class="tech-icon"> Express,
+                      <img src="https://img.icons8.com/color/48/000000/dev.png" alt="SpringBoot" class="tech-icon"> SpringBoot,
+                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon"> Python
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 border-white">
-                        <img src="./img/bbdd.jpg" class="card-img-top" alt="Database Technologies">
-                        <div class="card-body">
-                            <h5 class="card-title">Bases de datos</h5>
-                            <p class="card-text">
-                                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" style="width: 20px; vertical-align: middle;"> MySQL,
-                                <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" style="width: 20px; vertical-align: middle;"> MongoDB
-                            </p>
-                        </div>
-                    </div>
+              </div>
+          
+              <!-- Card de Bases de Datos -->
+              <div class="col-md-4">
+                <div class="card mb-4 tech-card">
+                  <img src="./img/bbdd.jpg" class="card-img-top" alt="Database Technologies">
+                  <div class="card-body">
+                    <h5 class="card-title">Bases de datos</h5>
+                    <p class="card-text">
+                      <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" class="tech-icon"> MySQL,
+                      <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="tech-icon"> MongoDB
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 border-white">
-                        <img src="./img/back-end-developer.png" class="card-img-top" alt="Programming Languages">
-                        <div class="card-body">
-                            <h5 class="card-title">Lenguajes</h5>
-                            <p class="card-text">
-                                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" style="width: 20px; vertical-align: middle;"> Java,
-                                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="width: 20px; vertical-align: middle;"> Python
-                            </p>
-                        </div>
-                    </div>
+              </div>
+          
+              <div class="col-md-4 mx-auto">
+                <div class="card mb-4 tech-card">
+                  <img src="./img/back-end-developer.png" class="card-img-top" alt="Programming Languages">
+                  <div class="card-body">
+                    <h5 class="card-title">Lenguajes</h5>
+                    <p class="card-text">
+                      <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" class="tech-icon"> Java,
+                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon"> Python
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        
-        
-
-        <!-- Sección Proyectos -->
+          </section>
+          
         <section id="proyectos" class="my-5 section-rounded">
             <h3>Proyectos</h3>
             <div class="row">
@@ -165,9 +154,9 @@
                         <img src="img/transportes.png" class="card-img-top" alt="Proyecto 1">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Empresa Paquetería</h5>
-                            <p class="card-text">Proyecto SpringBoot</p>
+                            <p class="card-text">Desarrollada con SpringBoot</p>
                             <p class="card-text">Aplicación que gestiona el envío y seguimiento de paquetes en una empresa de transporte, se llevará el control de los envíos de paquetería.</p>
-                            <a href="https://github.com/alvaroloal/proyecto-paquetes" class="btn btn-primary" target="_blank">Ver proyecto</a>
+                            <a href="https://github.com/alvaroloal/proyecto-paquetes" class="btn btn-primary" target="_blank">Ver repositorio</a>
                         </div>
                     </div>
                 </div>
@@ -176,38 +165,34 @@
                         <img src="img/todoremo.png" class="card-img-top" alt="Proyecto 2">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Tienda Productos Remo</h5>
-                            <p class="card-text">Proyecto SpringBoot</p>
+                            <p class="card-text">Desarrollada con SpringBoot</p>
                             <p class="card-text">Aplicación que gestiona los productos de una tienda, así como la gestion de los usuarios del sistema.</p>
-                            <a href="https://github.com/alvaroloal/proyecto-tienda-remo" class="btn btn-primary" target="_blank">Ver proyecto</a>
+                            <a href="https://github.com/alvaroloal/proyecto-tienda-remo" class="btn btn-primary" target="_blank">Ver repositorio</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sección Formación -->
         <main class="container">
-            <!-- Sección Formación -->
             <section id="formacion" class="my-5 section-rounded">
                 <h3 class="text-center mb-4">Formación</h3>
                 <div class="row justify-content-center">
-                    <!-- Card 1 -->
                     <div class="col-md-5 col-lg-4">
                         <div class="card text-center mb-3">
                             <div class="card-body">
                                 <i class="fas fa-laptop-code fa-2x mb-3 text-primary"></i>
-                                <h5 class="card-title">Curso de Desarrollo Multiplataforma</h5>
-                                <p class="card-text">Universidad XYZ</p>
+                                <h5 class="card-title">Técnico Superior Desarrollo Aplicaciones Multiplataforma</h5>
+                                <p class="card-text">Salesianos de Triana</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 2 -->
                     <div class="col-md-5 col-lg-4">
                         <div class="card text-center mb-3">
                             <div class="card-body">
                                 <i class="fas fa-layer-group fa-2x mb-3 text-primary"></i>
-                                <h5 class="card-title">Curso de Full Stack</h5>
-                                <p class="card-text">Academia ABC</p>
+                                <h5 class="card-title">Full Stack Developer</h5>
+                                <p class="card-text">Academia</p>
                             </div>
                         </div>
                     </div>
@@ -221,11 +206,11 @@
                     <div class="col-md-8">
                         <div class="d-flex flex-wrap justify-content-around">
                             <div class="text-center m-3">
-                                <i class="fab fa-html5 fa-3x text-warning"></i>
+                                <i class="fab fa-html5 fa-3x text-primary"></i>
                                 <p>HTML</p>
                             </div>
                             <div class="text-center m-3">
-                                <i class="fab fa-css3-alt fa-3x text-primary"></i>
+                                <i class="fab fa-css3-alt fa-3x text-danger"></i>
                                 <p>CSS</p>
                             </div>
                             <div class="text-center m-3">
@@ -239,6 +224,14 @@
                             <div class="text-center m-3">
                                 <i class="fab fa-node-js fa-3x text-success"></i>
                                 <p>Node.js</p>
+                            </div>
+                            <div class="text-center m-3">
+                                <i class="fab fa-angular fa-3x text-danger"></i>
+                                <p>Angular</p>
+                            </div>
+                            <div class="text-center m-3">
+                                <i class="fab fa-java fa-3x text-primary"></i>
+                                <p>Java</p>
                             </div>
                             <div class="text-center m-3">
                                 <i class="fab fa-python fa-3x text-info"></i>
@@ -260,7 +253,7 @@
                     </div>
                 </div>
             </section>
-        
+            
             <section id="contacto" class="my-5 section-rounded">
                 <h3 class="text-center mb-4">Contacto</h3>
                 <form class="mx-auto" style="max-width: 600px;">
@@ -289,17 +282,17 @@
                         <a class="nav-link fw-bold text-uppercase" href="#skills">Skills</a>
                     </div>
                     <div class="col-md-4">
-                        <h5>Redes Sociales</h5>
+                        <h5 class="text-primary">Redes Sociales</h5>
                         <a href="https://www.linkedin.com/in/álvaro-lorente-almán-5018a42a5" class="text-white me-2" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
                         <a href="https://github.com/alvaroloal" class="text-white me-2" target="_blank"><i class="fab fa-github fa-lg"></i></a>
                     </div>
                     <div class="col-md-4">
-                        <h5>Contacto</h5>
+                        <h5 class="text-primary">Contacto</h5>
                         <a href="mailto:alorentealman@gmail.com" class="text-white me-2"><i class="fab fa-mail fa-lg"></i>alorentealman@gmail.com</a>
                     </div>
                 </div>
                 <div class="text-center mt-3">
-                    <p>&copy; 2024 Álvaro Lorente Almán. Todos los derechos reservados.</p>
+                    <p>&copy; 2024 Álvaro Lorente Almán.</p>
                     <a href="#" class="text-white" title="Volver al inicio" style="font-size: 1.5em;">
                         <i class="fas fa-arrow-up"></i>
                     </a>
