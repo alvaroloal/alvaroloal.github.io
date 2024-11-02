@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Álvaro Lorente Almán</title>
+    <title>Portfolio - Álvaro Lorente</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg nav-bar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/L.png" alt="Logo" width="40" class="me-2">
+                <img src="img/logo.png" alt="Logo" width="40" class="me-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,9 +44,6 @@
                         <a class="nav-link fw-bold text-uppercase" href="#contacto">Contacto</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-secondary" id="toggleDarkMode">
-                    <i class="bi bi-moon"></i> 
-                </button>
             </div>
         </div>
     </nav>
@@ -54,14 +51,14 @@
 
     <main class="container my-5">
         <section id="sobre-mi" class="my-5 section-rounded">
-            <h3>Sobre mí</h3>
+            <h3 class="mb-4">Sobre mí</h3>
             <p>Soy desarrollador de aplicaciones y estudiante de programación, tengo 26 años y soy de Sevilla. Actualmente me encuentro cursando el grado de Desarrollo Aplicaciones Multiplataforma.
                 Me gusta enfrentar nuevos retos y aprender tecnologías. He trabajado en varios proyectos de APIs REST usando Spring, y actualmente estoy aprendiendo otros frameworks y lenguajes de programación como Python para ampliar mis conocimientos y herramientas de desarrollo.
                 Mi objetivo es seguir creciendo en el mundo del desarrollo de software, contribuyendo activamente en proyectos y manteniéndome al día con las últimas tendencias tecnológicas.
             </p>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/uki.png" alt="Foto de perfil" class="img-fluid rounded-circle shadow">
+                    <img src="img/uki.png" alt="Foto de perfil" class="img-fluid shadow rounded-border">
                 </div>
                 <div class="col-md-8">
                     <p><strong>Edad:</strong> 26 años</p>
@@ -85,7 +82,7 @@
         
 
         <section id="tecnologias" class="my-5 section-rounded">
-            <h3 class="section-title">Tecnologías</h3>
+            <h3 class="mb-4">Tecnologías</h3>
             <div class="row">
               <div class="col-md-4">
                 <div class="card mb-4 tech-card">
@@ -93,10 +90,11 @@
                   <div class="card-body">
                     <h5 class="card-title">Frontend</h5>
                     <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" class="tech-icon"> HTML,
-                      <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" class="tech-icon"> CSS,
-                      <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" class="tech-icon"> JavaScript,
-                      <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" class="tech-icon"> Angular
+                      <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" class="tech-icon">HTML
+                      <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" class="tech-icon">CSS
+                      <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" class="tech-icon">JavaScript
+                      <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" class="tech-icon">Angular
+                      <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="React" class="tech-icon">React
                     </p>
                   </div>
                 </div>
@@ -108,24 +106,22 @@
                   <div class="card-body">
                     <h5 class="card-title">Backend</h5>
                     <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" class="tech-icon"> Node.js,
-                      <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" class="tech-icon"> Express,
-                      <img src="https://img.icons8.com/color/48/000000/dev.png" alt="SpringBoot" class="tech-icon"> SpringBoot,
-                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon"> Python
-                    </p>
+                      <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" class="tech-icon">Node.js
+                      <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" class="tech-icon">Express<br>
+                      <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" class="tech-icon">SpringBoot</p>
                   </div>
                 </div>
               </div>
           
-              <!-- Card de Bases de Datos -->
               <div class="col-md-4">
                 <div class="card mb-4 tech-card">
-                  <img src="./img/bbdd.jpg" class="card-img-top" alt="Database Technologies">
+                  <img src="./img/bbdd.webp" class="card-img-top" alt="Database Technologies">
                   <div class="card-body">
                     <h5 class="card-title">Bases de datos</h5>
                     <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" class="tech-icon"> MySQL,
-                      <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="tech-icon"> MongoDB
+                      <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" class="tech-icon">MySQL
+                      <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="tech-icon">MongoDB <br>
+                      <img src="https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=000000" alt="PostgreSQL" class="tech-icon">PostgreSQL
                     </p>
                   </div>
                 </div>
@@ -137,8 +133,11 @@
                   <div class="card-body">
                     <h5 class="card-title">Lenguajes</h5>
                     <p class="card-text">
-                      <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" class="tech-icon"> Java,
-                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon"> Python
+                      <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" class="tech-icon">Java
+                      <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="tech-icon">Python
+                      <img src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="TypeScript" class="tech-icon">TypeScript
+
+                      
                     </p>
                   </div>
                 </div>
@@ -147,7 +146,7 @@
           </section>
           
         <section id="proyectos" class="my-5 section-rounded">
-            <h3>Proyectos</h3>
+            <h3 class="mb-4">Proyectos</h3>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-4 shadow">
@@ -301,5 +300,7 @@
         </footer>
   
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
