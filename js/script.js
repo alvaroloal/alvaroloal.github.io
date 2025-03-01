@@ -1,4 +1,3 @@
-// Alternar modo oscuro
 document.getElementById('toggleDarkMode').addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
     const isDarkMode = document.body.classList.contains('dark-mode');
